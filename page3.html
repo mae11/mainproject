@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Website Example</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  <link rel="stylesheet" href="image_gallery.css">
+  <link rel="stylesheet" href="subset_expansion.css">
+  
+  <style>
+    html{
+        width:100%;
+        height:100%;
+    }
+    body{
+        width:100%;
+        height:100%;
+        background-color:#DDD;
+    }
+
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+
+</head>
+<body>
+
+<div class="p-5 bg-primary text-white text-center">
+  <h1>My Third Bootstrap 5 Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pagemain2.html">My Family</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page3.html">A Few Favorites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pg4.html">Baby Animals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page5.html">Reservation Request</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2 class="text-center"><strong>About Me</h2></strong>
+        <br>
+        <h5><strong>Benito:</h5></strong>
+      
+        <img width="230" height="230" src="littlemeow.jpg">
+        <br>
+    
+        <br>
+        <p>I have dedicated this page to a couple of my favorite ladies. #WomensEmpowerment</p>
+      
+      
+      <h3 class="mt-4">Some Links</h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pagemain2.html">My Family</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="page3.html">A Few Favorites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pg4.html">Baby Animals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="page5.html">Reservation Request</a>
+          </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      
+      <legend><h3>Image Gallery Project</h3></legend>
+      <ul id="image_list">
+      <legend>
+          <li><a href="https://64.media.tumblr.com/9ac3644ab3fb6c2dc136a581387052b5/47f7c74bd88fe7dc-f9/s1280x1920/f8fde87ff82fa64aff750c458dbf74aefe8bf7bd.jpg" title="Gillian Anderson">Gillian Anderson</a></li>
+          <li><a href="https://hips.hearstapps.com/hmg-prod/images/rihanna-attends-marvel-studios-black-panther-2-wakanda-news-photo-1668102534.jpg?crop=0.668xw:1.00xh;0.255xw,0&resize=980:*" title= "Rihanna">Rihanna</a></li>
+          <li><a href="https://64.media.tumblr.com/db0111f7332d7ba97255e305672d0400/tumblr_pplzqknvUj1y1j7pro1_1280.jpg" title="Michelle Pfeiffer (1983)">Michelle Pfeiffer</a></li>
+          <li><a href="https://images.squarespace-cdn.com/content/v1/58425081893fc0f82bd1c06d/c14e1699-f07e-4678-9fa4-b59d21fea7c1/Rosalia1.jpg?format=750w" title="Rosalia">Rosalia</a></li>
+          <li><a href="https://static.wikia.nocookie.net/zotityac/images/3/34/Spotify_cover.jpg/revision/latest?cb=20210218153540" title="Winona Ryder">Winona Ryder</a></li>
+      </legend>
+      </ul>
+      <h2 id="caption">Gillian Anderson</h2>
+      <p id="gallery">
+          <img width="450" height="450" src="https://64.media.tumblr.com/9ac3644ab3fb6c2dc136a581387052b5/47f7c74bd88fe7dc-f9/s1280x1920/f8fde87ff82fa64aff750c458dbf74aefe8bf7bd.jpg" alt="Image Gallery area" id="image"> 
+          
+      </p>
+  </main>
+
+</html>
+
+ </div>
+  </div>
+</div>
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <p>Footer</p>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" 
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous"></script>  
+<script src="image_gallery.js"></script>
+
+</body>
+</html>
